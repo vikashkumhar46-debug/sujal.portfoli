@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sujal Kumhar — Instagram Reels and short-form video editor.">
+<title>Sujal Kumhar — Video Editor</title>
+<style>
+:root{--bg:#f4f4f1;--paper:#fff;--ink:#111;--muted:#686868;--line:#deded9;--soft:#ededeb;--black:#101010}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,Arial,sans-serif}a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.logo{font-weight:900;letter-spacing:.13em;font-size:14px}.logo span{color:#999}.nav a{text-decoration:none;color:#555;font-size:13px;margin-left:22px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center;padding:78px 0 70px}.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:#777}.hero h1{font-size:clamp(54px,9vw,100px);letter-spacing:-.075em;line-height:.88;margin:17px 0 20px}.hero h1 span{color:#888}.lead{font-size:18px;color:#555;max-width:600px}.btn{display:inline-block;border:1px solid var(--black);background:var(--black);color:#fff;padding:12px 18px;border-radius:4px;text-decoration:none;font-size:13px;font-weight:800;cursor:pointer}.btn.light{background:transparent;color:#111}.btn.small{padding:8px 12px;font-size:12px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.hero-art{min-height:300px;background:#111;color:#fff;border-radius:10px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative}.hero-art:after{content:"▶";position:absolute;font-size:210px;color:#222;right:-15px;top:35px}.hero-art>*{z-index:1}.hero-art .big{font-size:54px;line-height:1}.hero-art h2{font-size:32px;line-height:1.05;margin:12px 0}.hero-art p{color:#bbb;margin:0}
+section{padding:48px 0;border-top:1px solid var(--line)}.section-top{margin-bottom:24px}.section-top h2{font-size:clamp(29px,4vw,43px);letter-spacing:-.05em;margin:4px 0}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:20px}.card h3{margin:0 0 7px;font-size:17px}.card p{margin:0;color:#666;font-size:14px}
+.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{background:#fff;border:1px solid var(--line);border-radius:9px;overflow:hidden}.project video{width:100%;display:block;aspect-ratio:9/16;max-height:560px;background:#111;object-fit:contain}.project-info{padding:16px}.project-info h3{margin:0 0 4px}.project-info p{margin:0 0 9px;color:#666;font-size:14px}.pill{font-size:11px;font-weight:800;letter-spacing:.05em;background:#eee;padding:5px 9px;border-radius:30px;display:inline-block}
+.price-box{max-width:680px;background:white;border:1px solid var(--line);border-radius:9px;padding:20px}.price-row{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line);gap:15px}.price-row:last-of-type{border:0}.price-row strong{font-size:19px}.note{font-size:12px;color:#777}
+.contact{background:#111;color:white;border-radius:10px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.contact p{color:#bbb;margin:5px 0 0}.contact .btn{background:#fff;color:#111;border-color:#fff}
+footer{padding:28px 0 42px;color:#777;font-size:12px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+#editPanel{margin:25px 0 55px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px}#editPanel summary{cursor:pointer;font-weight:900;font-size:17px}#editPanel .hint{font-size:12px;color:#777}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{margin-top:13px}.field label{display:block;font-size:12px;font-weight:800;margin-bottom:5px}input,textarea,select{width:100%;padding:11px;border:1px solid #ccc;border-radius:4px;font:inherit;background:#fff}textarea{min-height:75px}.form-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding:50px 0}.grid{grid-template-columns:1fr 1fr}.project-grid{grid-template-columns:1fr}.nav{align-items:flex-start;gap:12px;flex-direction:column}.nav a{margin:0 15px 0 0}.formgrid{grid-template-columns:1fr}}
+@media(max-width:450px){.grid{grid-template-columns:1fr}.hero-art{min-height:240px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="logo">SK<span> / </span>SUJAL KUMHAR</div>
+  <nav class="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+</header>
+<main class="wrap">
+  <section class="hero" style="border:0">
+    <div>
+      <div class="eyebrow">Video Editor · Instagram Reels Specialist</div>
+      <h1 id="heroName">Sujal<br><span>Kumhar.</span></h1>
+      <p class="lead" id="tagline">Creative Reels. Powerful Stories. I turn ordinary footage into engaging short-form content with clean cuts, smooth transitions, subtitles and thoughtful storytelling.</p>
+      <div class="actions"><a class="btn" href="#work">Explore my work ↓</a><a class="btn light" id="instaBtn" href="https://instagram.com/sujal.xal_" target="_blank" rel="noopener">Instagram @sujal.xal_ ↗</a></div>
+    </div>
+    <div class="hero-art"><div class="big">▶</div><div><div class="eyebrow" style="color:#aaa">My editing philosophy</div><h2>EDIT.<br>CREATE.<br>INSPIRE.</h2><p>Reels · Shorts · Brand stories</p></div></div>
+  </section>
+
+  <section id="about"><div class="section-top"><div class="eyebrow">01 / About me</div><h2>Turning footage into stories.</h2></div>
+    <p class="lead" id="aboutText">I am a creative video editor specialising in Instagram Reels and short-form video content. I enjoy transforming ordinary footage into engaging, attractive videos. My focus is on clean editing, smooth transitions, engaging subtitles and creative storytelling.</p>
+    <span class="pill">Android workflow</span> <span class="pill">Basic–Intermediate experience</span> <span class="pill">Short-form content</span>
+  </section>
+
+  <section id="skills"><div class="section-top"><div class="eyebrow">02 / Skills</div><h2>Editing skills</h2></div>
+    <div class="grid">
+      <article class="card"><h3>Video cutting & trimming</h3><p>Clean cuts, pacing and arranging clips into a clear story.</p></article>
+      <article class="card"><h3>Keyframe animation</h3><p>Movement, zooms and simple animated elements.</p></article>
+      <article class="card"><h3>Smooth transitions</h3><p>Natural transitions that support the video rather than distract.</p></article>
+      <article class="card"><h3>Text & subtitles</h3><p>Readable captions, text animation and highlighted keywords.</p></article>
+      <article class="card"><h3>Sound synchronisation</h3><p>Music timing, sound effects and balanced audio.</p></article>
+      <article class="card"><h3>Basic colour grading</h3><p>Exposure, contrast and consistent visual tone.</p></article>
+    </div>
+    <p class="muted" style="margin-top:18px"><strong>Editing software:</strong> CapCut Video Editor · Canva · YouTube Create</p>
+  </section>
+
+  <section id="work"><div class="section-top"><div class="eyebrow">03 / Selected work</div><h2>My video projects</h2><p class="muted">A selection of uploaded video samples. Use the controls to play each project.</p></div>
+    <div class="project-grid" id="projectGrid">
+      <article class="project"><video controls playsinline preload="metadata" src="videos/cinematic-reel-01.mp4"></video><div class="project-info"><span class="pill">Cinematic Reels</span><h3>Project 01 — Cinematic Reel</h3><p>Creative transitions, music synchronisation and cinematic presentation.</p></div></article>
+      <article class="project"><video controls playsinline preload="metadata" src="videos/reel-project-02.mp4"></video><div class="project-info"><span class="pill">Instagram Reels</span><h3>Project 02 — Reel Edit</h3><p>Short-form video edit showcasing pacing and visual storytelling.</p></div></article>
+      <article class="project"><video controls playsinline preload="metadata" src="videos/reel-project-03.mp4"></video><div class="project-info"><span class="pill">Instagram Reels</span><h3>Project 03 — Reel Edit</h3><p>A vertical video sample from my editing projects.</p></div></article>
+      <article class="project"><video controls playsinline preload="metadata" src="videos/reel-project-04.mp4"></video><div class="project-info"><span class="pill">Business / Creative</span><h3>Project 04 — Promotional Style</h3><p>Visual presentation, clip selection and engaging short-form format.</p></div></article>
+      <article class="project"><video controls playsinline preload="metadata" src="videos/reel-project-05.mp4"></video><div class="project-info"><span class="pill">Motivational Reels</span><h3>Project 05 — Motivational Reel</h3><p>Motivational storytelling, background music and text-led presentation.</p></div></article>
+    </div>
+  </section>
+
+  <section id="services"><div class="section-top"><div class="eyebrow">04 / Services</div><h2>How I can help</h2></div>
+    <div class="grid">
+      <article class="card"><h3>Instagram Reels</h3><p>Short-form edits for creators and brands.</p></article>
+      <article class="card"><h3>YouTube Shorts</h3><p>Concise vertical videos with engaging pacing.</p></article>
+      <article class="card"><h3>Cinematic video editing</h3><p>Creative transitions and music-synchronised edits.</p></article>
+      <article class="card"><h3>Educational Reels</h3><p>Teacher videos, subtitles and highlighted keywords.</p></article>
+      <article class="card"><h3>Podcast Reels</h3><p>Clean cuts, captions and focused talking clips.</p></article>
+      <article class="card"><h3>Business promotions</h3><p>Product showcases, promotional text and business videos.</p></article>
+    </div>
+  </section>
+
+  <section id="pricing"><div class="section-top"><div class="eyebrow">05 / Introductory rates</div><h2>Simple starting prices</h2></div>
+    <div class="price-box">
+      <div class="price-row"><span>Basic Reel</span><strong>₹150</strong></div>
+      <div class="price-row"><span>Reel with subtitles</span><strong>₹200</strong></div>
+      <div class="price-row"><span>Advanced Reel</span><strong>₹300</strong></div>
+      <div class="price-row"><span>5-Reel Package</span><strong>₹1,000</strong></div>
+      <p class="note">Introductory suggested prices. Final pricing depends on video length, footage, complexity and agreed revisions.</p>
+    </div>
+  </section>
+
+  <section id="contact"><div class="section-top"><div class="eyebrow">06 / Let's work together</div><h2>Have a video in mind?</h2></div>
+    <div class="contact"><div><h2 style="margin:0">Let's create something engaging.</h2><p>Instagram Reels · YouTube Shorts · Promotional Videos</p><p id="contactHandle">@sujal.xal_</p></div><a class="btn" id="contactBtn" href="https://instagram.com/sujal.xal_" target="_blank" rel="noopener">Contact on Instagram ↗</a></div>
+  </section>
+
+  <details id="editPanel"><summary>Website editor — customise your portfolio</summary>
+    <p class="hint">Change your profile details and add more video samples. Changes are saved in this browser on this device. The five supplied sample videos are already included in the website folder.</p>
+    <div class="formgrid">
+      <div class="field"><label for="nameInput">Display name</label><input id="nameInput" value="Sujal Kumhar"></div>
+      <div class="field"><label for="handleInput">Instagram username (without @)</label><input id="handleInput" value="sujal.xal_"></div>
+    </div>
+    <div class="field"><label for="taglineInput">Short introduction</label><textarea id="taglineInput">Creative Reels. Powerful Stories. I turn ordinary footage into engaging short-form content with clean cuts, smooth transitions, subtitles and thoughtful storytelling.</textarea></div>
+    <hr style="border:0;border-top:1px solid #ddd;margin:22px 0">
+    <h3>Add another project</h3>
+    <div class="formgrid">
+      <div class="field"><label for="newTitle">Project title</label><input id="newTitle" placeholder="e.g. Fitness Reel"></div>
+      <div class="field"><label for="newCategory">Category</label><select id="newCategory"><option>Instagram Reels</option><option>Educational Reels</option><option>Business Promotion</option><option>Cinematic Reels</option><option>Motivational Reels</option><option>Other</option></select></div>
+    </div>
+    <div class="field"><label for="newDescription">Description</label><textarea id="newDescription" placeholder="Briefly describe this edit"></textarea></div>
+    <div class="field"><label for="newVideo">Choose video from your device</label><input id="newVideo" type="file" accept="video/*"><p class="hint">New uploads are stored in this browser only. To publish them for everyone, add the video to the website folder and upload the updated site package.</p></div>
+    <div class="form-actions"><button class="btn" id="saveProfile">Save profile changes</button><button class="btn light" id="addProject">Add video project</button></div>
+    <p class="hint" id="editStatus" role="status"></p>
+  </details>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> Sujal Kumhar</span><span>Creative Reels. Powerful Stories.</span></footer>
+<script>
+const $=id=>document.getElementById(id);
+const profileKey='sujalPortfolioProfileV2', extraKey='sujalPortfolioExtrasV2';
+function applyProfile(){
+ let p={};try{p=JSON.parse(localStorage.getItem(profileKey)||'{}')}catch(e){}
+ const name=p.name||'Sujal Kumhar', handle=(p.handle||'sujal.xal_').replace(/^@/,'');
+ $('heroName').innerHTML=name.split(' ').map((part,i)=>i===0?part:'<span>'+part+'.</span>').join('<br>');
+ $('nameInput').value=name;$('handleInput').value=handle;
+ if(p.tagline){$('tagline').textContent=p.tagline;$('taglineInput').value=p.tagline}
+ $('instaBtn').href='https://instagram.com/'+encodeURIComponent(handle);$('instaBtn').textContent='Instagram @'+handle+' ↗';
+ $('contactHandle').textContent='@'+handle;$('contactBtn').href='https://instagram.com/'+encodeURIComponent(handle);
+}
+function renderExtras(){
+ let extras=[];try{extras=JSON.parse(localStorage.getItem(extraKey)||'[]')}catch(e){}
+ extras.forEach((p,i)=>{
+  const article=document.createElement('article');article.className='project';
+  const v=document.createElement('video');v.controls=true;v.playsInline=true;v.preload='metadata';v.src=p.url;
+  const info=document.createElement('div');info.className='project-info';
+  const pill=document.createElement('span');pill.className='pill';pill.textContent=p.category;
+  const h=document.createElement('h3');h.textContent=p.title;
+  const desc=document.createElement('p');desc.textContent=p.description||'Video editing sample.';
+  const del=document.createElement('button');del.className='btn light';del.style.fontSize='12px';del.textContent='Remove from this browser';del.onclick=()=>{extras.splice(i,1);localStorage.setItem(extraKey,JSON.stringify(extras));location.reload()};
+  info.append(pill,h,desc,del);article.append(v,info);$('projectGrid').append(article);
+ });
+}
+$('saveProfile').onclick=()=>{
+ const handle=$('handleInput').value.trim().replace(/^@/,'');
+ const p={name:$('nameInput').value.trim()||'Sujal Kumhar',handle:handle||'sujal.xal_',tagline:$('taglineInput').value.trim()};
+ localStorage.setItem(profileKey,JSON.stringify(p));applyProfile();$('editStatus').textContent='Profile changes saved in this browser.';
+};
+$('addProject').onclick=()=>{
+ const file=$('newVideo').files[0],title=$('newTitle').value.trim();
+ if(!file||!title){$('editStatus').textContent='Please enter a title and choose a video.';return}
+ if(file.size>80*1024*1024){$('editStatus').textContent='Please choose a video under 80 MB for browser storage.';return}
+ const reader=new FileReader();
+ reader.onload=()=>{let extras=[];try{extras=JSON.parse(localStorage.getItem(extraKey)||'[]')}catch(e){}
+ extras.push({title,category:$('newCategory').value,description:$('newDescription').value.trim(),url:reader.result});
+ try{localStorage.setItem(extraKey,JSON.stringify(extras));$('editStatus').textContent='Project added. It is visible in this browser only.';location.reload()}
+ catch(e){$('editStatus').textContent='Browser storage is full. Use a smaller video or add it to the website folder before publishing.'}
+ };
+ reader.readAsDataURL(file);
+};
+$('year').textContent=new Date().getFullYear();applyProfile();renderExtras();
+</script>
+</body>
+</html>
